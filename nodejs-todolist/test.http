@@ -1,0 +1,33 @@
+GET http://localhost:3000
+
+####
+ 
+POST  http://localhost:3000
+Content-Type: : application/json
+Accept: application/json
+
+{
+  "id" : 1,
+  "todo": "belajar NodeJS"
+}
+
+###
+
+PUT   http://localhost:3000
+Content-Content-Type: : application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "todo": "belajar NodeJS"
+}
+
+###
+
+DELETE    http://localhost:3000
+Content-Content-Type: : application/json
+Accept: application/json
+
+{
+  "id": 1
+}
